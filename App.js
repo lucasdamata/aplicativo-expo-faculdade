@@ -8,7 +8,7 @@ class App extends Component {
   render(){
     return(
       <View style={styles.conteiner}>
-        <WelcomeComponent />
+        <WelcomeComponent titleWelcome=', seja bem vindo ao nosso Aplicativo expo' />
         <ImageComponent />
         <ButtonCompoenet />
       </View>
@@ -19,7 +19,8 @@ class App extends Component {
 const styles = StyleSheet.create({
   conteiner:{
       flex: 1,
-      alignItems: 'center'
+      alignItems: 'center',
+      justifyContent: 'center'
   }
 })
 

@@ -5,7 +5,7 @@ class ButtonCompoenet extends Component {
   render(){
     return(
       <>
-        <TouchableOpacity style={styles.styleButton}>Entrar</TouchableOpacity>
+        <TouchableOpacity style={styles.styleButton}><Text>Entrar</Text ></TouchableOpacity>
       </>
     )
   }

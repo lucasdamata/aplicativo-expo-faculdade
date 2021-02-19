@@ -4,7 +4,7 @@ import {Feather} from '@expo/vector-icons'
 
 class ImageComponent extends Component {
   render(){
-    let img = 'https://reactnative.dev/img/header_logo.svg'
+    let img = 'https://www.infnet.edu.br/esti/wp-content/uploads/sites/5/2019/07/bigstock-Mobile-Application-Development-266379448.jpg'
     return(
       <>
       <Image 

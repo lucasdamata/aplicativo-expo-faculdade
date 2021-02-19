@@ -9,7 +9,7 @@ class WelcomeComponent extends Component {
       <>
           <Text style={styles.boaVindas}>Olá, seja bem vindo!</Text>
 
-          <Text><Text style={styles.textVariable}>{nome}</Text>, estamos felizes que está em nosso Aplicativo Expo</Text>
+          <Text><Text style={styles.textVariable}>{nome}</Text> {this.props.titleWelcome}</Text>
       </>
     )
   }
